@@ -166,6 +166,17 @@ body{
     line-height: 24px;
     color: #344054;
 }
+.number-of-notifications{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 8px;
+    width: 30px;
+    height: 22px;
+    background: #F2F4F7;
+    mix-blend-mode: multiply;
+    border-radius: 16px;
+}
 .dsk-right-side-menu-bottom{
     width: 100%;
     display: none;
