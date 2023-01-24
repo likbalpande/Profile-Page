@@ -568,6 +568,15 @@ input[type='email']{
     gap: 4px;
     height: 20px;
 }
+.upload-file-text-line-1{
+    font-size: 14px; line-height: 20px;
+}
+.upload-file-text-line-2{
+    color: #475467;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
 
 .personal-info-right-footer{
     width: 100%;
@@ -737,6 +746,12 @@ input:checked + .slider:before {
     max-width: 100%;
     height: 44px;
     border-radius: 8px 0px 0px 8px;
+}
+.profile-right-input-1-p1-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #475467;
 }
 .profile-right-input-1-p2{
     display: flex;
@@ -1272,8 +1287,76 @@ select{
     .font-selector{
         width:100% !important;
     }
+    .country-selector-arrow-svg{
+        bottom: 38px;
+        left: 90%;
+    }
 }
 
-/* @media (max-width: 768px){
+@media (max-width: 399px){
+    .top-share-btn{
+        width: fit-content;
+        padding: 8px 14px;
 
-} */
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .top-view-profile-btn{
+        width: fit-content;
+        padding: 8px 14px;
+
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    input[type='text']{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    input[type='email']{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .upload-file-text-line-1{
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .upload-file-text-line-2{
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .profile-right-input-1-p1-text{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .textarea-container textarea{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .font-selector{
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .country-selector{
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .country-selector-arrow-svg{
+        bottom: 37px;
+        left: 86%;
+    }
+    .flag-img{
+        top:-64px;
+    }
+    .clock-svg{
+        top:-64px;
+    }
+    
+}
